@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Sincronizar"
+    android:orientation="vertical"
+    android:background="@color/fondo">
+        <LinearLayout
+            android:layout_height="15dp"
+            android:layout_width="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+
+        </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuario                                       "/>
+
+        <TextView android:id="@+id/lblPassword"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"/>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent">
+
+        <EditText android:id="@+id/tUsuario"
+            android:background="#FFF"
+            android:singleLine="true"
+            android:layout_width="125sp"
+            android:layout_height="wrap_content"
+            android:enabled="true"/>
+
+        <TextView android:text="                 "
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText android:background="#FFF"
+            android:layout_width="125sp"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:id="@+id/tPassword"
+            android:enabled="true"
+            android:inputType="textPassword">
+
+            <requestFocus></requestFocus>
+        </EditText>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent">
+
+        <TextView android:text="Servidor"
+            android:textColor="#FFF"
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:id="@+id/tableRow4"
+        android:layout_width="fill_parent">
+
+        <EditText android:background="#FFF"
+            android:layout_width="315sp"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:id="@+id/tServidor"
+            android:enabled="true"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                   "/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@android:drawable/ic_menu_save" />
+
+    </LinearLayout>
+    </LinearLayout>

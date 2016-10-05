@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Sincronizar"
+    android:orientation="vertical"
+    android:background="@color/fondo">
+    <LinearLayout
+        android:layout_height="15dp"
+        android:layout_width="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Soncronizar con la PC"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="15dp"
+        android:layout_width="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text=""
+            android:id="@+id/btnGuardar"
+            android:gravity="center"
+            android:background="@drawable/synk"
+            android:textColor="#FFF"
+            android:onClick="Sync"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="15dp"
+        android:layout_width="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PC a Teléfono"
+                android:id="@+id/rbCargar"
+                android:textColor="#FFF"/>
+
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:text="        "/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teléfono a PC"
+                android:id="@+id/rbDescargar"
+                android:textColor="#FFF"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
